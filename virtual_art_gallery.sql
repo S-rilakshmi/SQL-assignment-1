@@ -139,3 +139,4 @@ select distinct a.name as ArtistName from artists a join artworks w on a.artisti
 /*Task20 List the names of artists and the number of artworks they have in the gallery. */ 
 select a.name as Artistname, count(w.artworkid) as NumberOfArtworks from Artists a left join artworks w on a.artistid=w.artistid group by a.artistid,a.name;
 
+/*hii all*/
